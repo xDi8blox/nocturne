@@ -222,3 +222,11 @@ h3 { font-family: var(--serif); font-weight: 600; }
   .mode { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+@media (max-width: 760px) {
+  .grid { grid-template-columns: repeat(3, 1fr); gap: 12px 10px; }
+  .hero-copy { padding-bottom: 120px; }
+  .hero-dots { bottom: 92px; }
+  .rows { margin-top: -40px; }
+  .pad { padding-top: 84px; }
+}
+.mood .emoji { height: 1.6rem; line-height: 1.6rem; }
